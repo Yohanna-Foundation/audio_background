@@ -296,13 +296,13 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "just_audio_background",
+      "name": "yohanna_audio_background",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-06-16T16:22:34.066675Z",
+  "generated": "2025-06-16T16:26:08.611033Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/osprog/development/flutter",

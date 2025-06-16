@@ -1,4 +1,4 @@
-# just_audio_background
+# yohanna_audio_background
 
 This package plugs into [just_audio](https://pub.dev/packages/just_audio) to add background playback support and remote controls (notification, lock screen, headset buttons, smart watches, Android Auto and CarPlay). It supports the simple use case where an app has a single `AudioPlayer` instance.
 
@@ -6,12 +6,12 @@ If your app has more complex requirements, it is recommended that you instead us
 
 ## Setup
 
-Add the `just_audio_background` dependency to your `pubspec.yaml` alongside `just_audio`:
+Add the `yohanna_audio_background` dependency to your `pubspec.yaml` alongside `just_audio`:
 
 ```yaml
 dependencies:
   just_audio: any # substitute version number
-  just_audio_background: any # substitute version number
+  yohanna_audio_background: any # substitute version number
 
 ```
 
@@ -19,7 +19,7 @@ Then add the following initialization code to your app's `main` method (refer to
 
 ```dart
 Future<void> main() async {
-  await JustAudioBackground.init(
+  await YohannaAudioBackground.init(
     androidNotificationChannelId: 'com.ryanheise.bg_demo.channel.audio',
     androidNotificationChannelName: 'Audio playback',
     androidNotificationOngoing: true,
