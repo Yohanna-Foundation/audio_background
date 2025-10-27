@@ -18,3 +18,4 @@ pubspec.lock
 Podfile.lock
 
 **/.cxx/
+.dart_tool/
