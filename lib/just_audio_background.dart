@@ -733,6 +733,12 @@ class _PlayerAudioHandler extends BaseAudioHandler
     }
   }
 
+  @override
+  Future<void> onTaskRemoved() async {
+    await stop();
+    return super.onTaskRemoved();
+  }
+
   /// Jumps away from the current position by [offset].
   Future<void> _seekRelative(Duration offset) async {
     var newPosition = currentPosition + offset;
